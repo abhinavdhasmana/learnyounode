@@ -1,12 +1,12 @@
 /* global process */
 var http = require('http');
-var bl = require('bl')
+var url = process.argv[2];
 
-http.get(process.argv[2], function (response) {
-  response.pipe(bl(function (err, data) {
-    if (err)
-      return console.error(err);
-    console.log(data.length);
+http.get(url, function (response) {
+  response.on('data', function (data) {
     console.log(data.toString());
-  }));
+  });
+}).on('error', function (error) {
+}).on('end', function (end) {
+  console.log("Ended");
 });
