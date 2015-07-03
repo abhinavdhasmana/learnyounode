@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+bl	8.js	/^var bl = require('bl')$/;"	v
+bl	9.js	/^var bl = require('bl');$/;"	v
+dirPath	6.js	/^var dirPath = process.argv[2];$/;"	v
+done_1	9.js	/^var done_1 = false;$/;"	v
+done_2	9.js	/^var done_2 = false;$/;"	v
+done_3	9.js	/^var done_3 = false;$/;"	v
+elementsInArray	3.js	/^var elementsInArray = fileContent.split("\\n");$/;"	v
+extension	6.js	/^var extension = process.argv[3];$/;"	v
+fileContent	3.js	/^var fileContent = fs.readFileSync(filePath).toString();$/;"	v
+filePath	3.js	/^var filePath = process.argv[2];$/;"	v
+filePath	4.js	/^var filePath = process.argv[2];$/;"	v
+fs	3.js	/^var fs = require('fs');$/;"	v
+fs	4.js	/^var fs = require('fs');$/;"	v
+fs	myModule.js	/^var fs = require('fs');$/;"	v
+http	7.js	/^var http = require('http');$/;"	v
+http	8.js	/^var http = require('http');$/;"	v
+http	9.js	/^var http = require('http');$/;"	v
+inputArray	2.js	/^var inputArray = process.argv;$/;"	v
+module.exports	myModule.js	/^module.exports = function (dirPath, extension, myCallback) {$/;"	f
+myCallback	6.js	/^function myCallback(err, data) {$/;"	f
+myModule	6.js	/^var myModule = require('.\/myModule');$/;"	v
+path	myModule.js	/^var path = require('path');$/;"	v
+print_data	9.js	/^function print_data() {$/;"	f
+sum	2.js	/^var sum = 0;$/;"	v
+url	7.js	/^var url = process.argv[2];$/;"	v
+url1	9.js	/^var url1 = process.argv[2];$/;"	v
+url2	9.js	/^var url2 = process.argv[3];$/;"	v
+url3	9.js	/^var url3 = process.argv[4];$/;"	v
+url_response_1	9.js	/^var url_response_1 = "";$/;"	v
+url_response_2	9.js	/^var url_response_2 = "";$/;"	v
+url_response_3	9.js	/^var url_response_3 = "";$/;"	v
